@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:people1="http://hibabydance.com/schema/people"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://hibabydance.com/schema/people http://hibabydance.com/schema/people.xsd">
+
+
+
+    <people1:people id="people" name="陶善长" age="27"/>
+
+
+</beans>
